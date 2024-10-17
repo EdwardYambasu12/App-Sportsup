@@ -1,0 +1,7 @@
+{
+  "name": "Sportsup",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
