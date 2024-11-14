@@ -1,0 +1,30 @@
+.list_of_matches{
+    background-color: gold;
+   }
+.date-location{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+
+#match{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(2, 2, 34);
+    margin-bottom: 1%;
+    border-radius: 9px;
+
+}
+.all_in_one{
+    display: flex;
+}
+.teams_score{
+    margin-left: 30%;
+    color: white;
+}
+.teams_name{
+    color: floralwhite;
+}

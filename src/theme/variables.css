@@ -1,2 +1,42 @@
-/* For information on how to create your own theme, please see:
-http://ionicframework.com/docs/theming/ */
+/* variables.css */
+
+/* Light theme */
+:root {
+  --ion-color-primary: #e8e8e8;
+  --ion-color-secondary: #000000;
+  --ion-color-tertiary: #ffffff;
+ 
+}
+
+/* Dark theme */
+[color-theme="dark"] {
+  --ion-color-primary: #000000;
+  --ion-color-secondary: #ffffff;
+  --ion-color-tertiary: #282828;
+  
+
+
+}
+
+[color-theme="light"] {
+  --ion-color-primary: #e8e8e8;
+  --ion-color-secondary: #000000;
+  --ion-color-tertiary: #ffffff;
+  
+
+
+}
+
+
+img{
+	border-radius: 50%;
+}
+
+.custom-tab-button  {
+  color: var(--ion-color-secondary); /* or any color you want */
+}
+
+
+.custom-tab-button[aria-selected="true"] {
+  color: var(--ion-color-primary); /* active color */
+}

@@ -1,0 +1,356 @@
+.main_info{
+    display : flex;
+
+}
+    table {
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    tr {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    td {
+        padding: 10px; /* Optional: Adjust padding as needed */
+
+    }
+
+.middle{
+    display : flex;
+}
+.main_selection{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.top_class{
+    background-color: rgb(2, 2, 34);
+}
+#background {
+    display: flex;
+    background-color: var(--ion-color-tertiary);
+      color : var(--ion-color-secondary);
+      width: 100%;
+    height:  120px;
+
+    position: relative;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+
+ 
+    
+}
+.classaction{
+     transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+#backgroundt {
+    display: flex;
+ background-color: var(--ion-color-secondary);
+      width: 100%;
+    height:  60px;
+    position: relative;
+     transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+         font-family: monospace;
+    
+}
+#transformer{
+    transform: translateY(-100%);
+}
+
+.team_logos{
+    width: 50px;
+    height: 50px;
+}
+.team_logost{
+    width: 30px;
+    height: 30px;
+}
+.mid_taber{
+    display: flex;
+   
+    overflow-x: auto;
+    width: 100%;
+
+    justify-content: center;
+    font-size: 3em;
+    overflow-x : auto;
+    overflow-y : hidden;
+  
+
+
+    }
+    .beneath{
+        transform: translateY(-20%);
+    }
+    #break-down{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        
+       
+    }
+    #play_rate{
+        border-radius: 11px;
+    }
+#delivery{
+    background-color: white;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+}
+    .mid_taber .active{
+   
+   
+    background: inherit;
+    border : none;
+ 
+    border-bottom: solid midnightblue;
+    border-width: 4px;
+    height: 40px;
+
+    margin: 1%;
+}
+
+    .mid_taber .inactive{
+   
+    
+    background: inherit;
+    
+
+    height: 40px;
+
+    margin: 1%;
+}
+
+.main_row{
+
+    display: flex;
+    align-items: center;
+      background-color: var(--ion-color-tertiary);
+    width: 90%;
+     margin-left: 4%;
+    margin-right: 4%;
+    font-family: monospace;
+    color : var(--ion-color-secondary);
+    justify-content: space-between;
+
+
+}
+#awaya{
+    text-align: right;
+    color: gold;
+}
+.short_nav{
+
+  
+    display: flex;
+    overflow-x: auto;
+}
+.ref_box{
+    border: solid;
+    border-color: rgb(2, 2, 34);
+}
+.info_div{
+
+    overflow-y: auto;
+    text-align: center;
+     margin-left: 2%;
+    margin-right: 2%;
+   background-color: inherit;
+
+}
+
+#main{
+       
+            
+    display: flex;
+    justify-content: right;
+ 
+}
+
+#main-left{
+ 
+    display: flex;  
+
+}
+#pen{
+    color : red
+}
+
+
+
+#row{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    
+ }
+#beneath_holder{
+    display: flex;
+
+}
+#player_number{
+
+transform: translateY(0%);
+color : gold;
+
+}
+#away_t #player_number_holder{
+            width: 50px;
+    background-color: ivory;
+    height:  50px;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#player_number_holder{
+        width: 50px;
+    background-color: midnightblue;
+    height:  50px;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+#beneath_holder{
+    transform: translateY(-170%);
+
+}
+
+body{
+    background: ghostwhite;
+}
+.defenders{
+        top: 18%;
+}
+.goalkeepers{
+
+}
+.d-Midfielders{
+    top : 36%
+}
+.Midfielders{
+    top : 52%
+}
+.attackers{
+    top: 70%;
+}
+#away_t  {
+          width: 100%;
+
+    background-image : url("../images/field.png");
+    background-size: 160%;
+    background-repeat : no-repeat;
+    background-position-x: center;
+    transform: rotateZ(180deg);
+    height: fit-content;
+    
+}
+
+#away_t .teamx #row{
+        transform: rotateZ(180deg);
+}
+#home_t{
+            height: fit-content;
+            width: 100%;
+
+    background-image : url("../images/field.png");
+    background-size: 160%;
+    background-repeat : no-repeat;
+    background-position-x: center;
+
+    
+}
+
+#away_t .teamx table tr{
+      
+       height: 70px;
+       transform: rotateZ(180deg);
+              
+}
+#away_t .teamx table td{
+      
+       height: 70px;
+               transform: rotateZ();
+}
+
+#home_t .teamx table tr{
+      
+       height: 70px;
+               transform: rotateZ(180deg);
+}
+#home_t .teamx table td{
+      
+       height: 70px;
+               transform: rotateZ(180deg);
+}
+#player_name{
+    width: 50px;
+    color: black;
+    text-decoration: bold;
+    font-weight: bold;
+    font-size: 0.7em;
+    white-space: nowrap;
+    overflow : hidden;
+    text-overflow: ellipsis;
+}
+#beneath4{
+    color: white;
+    font-size: 1em;
+    margin-left: 2%;
+    background-color: slategray;
+    border-radius: 9px;
+}
+
+
+#field{
+    transform: rotateZ(90deg);
+}
+
+@media only screen and (min-width : 900px){
+    #lines{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #bg-screen {
+        display : "block";
+
+    }
+    #sm-screen {
+        display : "none"
+    }
+
+
+    #love{
+        margin-top : 15%
+    }
+
+  
+}
+
+@media only screen and (max-width : 900px) {
+
+    #bg-screen {
+        display : "none";
+
+    }
+
+    #sm-screen {
+        display : "block"
+    }
+
+    #love{
+        margin-top : 40%
+    }
+}

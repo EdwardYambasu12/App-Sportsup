@@ -1,0 +1,18 @@
+MAP FOR TOURNAMENT
+1. Recieve API
+2. Search League Previous Matches in 4 months
+3. Sort and take all the matches with the Match round involving finals
+4. Group the Various Finals base on Stages
+
+MAP FOR LEAGUE
+1, Recieve API
+2. check if the league round is Regular Season
+3. Map the League
+4. Edit the number spec based on : promotion, relegation, teams involved
+
+Map for Group Stage
+
+1. Recieve API
+2. Group all the Group stages
+3. Map the Array
+4. Edit the number spec based on : Promotion, relegation, teams involved

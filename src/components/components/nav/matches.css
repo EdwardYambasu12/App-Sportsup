@@ -1,0 +1,162 @@
+#logod{
+	width : 30px;
+	height : 30px;
+
+	
+	text-decoration: none;
+}
+#logo{
+	width : 30px;
+	height : 30px;
+
+	
+	text-decoration: none;
+}
+
+#logo_id{
+	width: 20px;
+	text-decoration: none;
+	height: 20px;
+
+}
+.icons a{
+	color : white;
+
+text-decoration: none;
+}
+.matches:nth-child(even){
+	background-color: white;
+		display: flex;
+
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+	color: black;
+	margin-top: 5px;
+		max-height: 150px;
+	text-decoration: none;
+}
+.matches:nth-child(odd){
+	background-color: #EEEEEE;
+		display: flex;
+		color: black;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+	max-height: 150px;
+	margin-top: 5px;
+	
+	text-decoration: none;
+}
+#active_leagues{
+
+	color: red;
+	font-weight: 3em;
+
+}
+#flexing{
+	display: flex;
+	text-decoration: none;
+	align-items: center;
+	width: 100%;
+}
+.league_description1:nth-child(odd){
+	align-items: center;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	
+	width: 100%;
+	text-decoration: none;
+	background: white;
+
+
+	border-bottom: solid #EEEEEE ;
+	border-width: 2px;
+}
+.league_description1:nth-child(even){
+	align-items: center;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+
+	text-decoration: none;
+	background: white;
+	border-bottom: solid #EEEEEE;
+	border-width: 2px;
+}
+
+.league_description{
+	align-items: center;
+	height: 50px;
+	display: flex;
+	
+	
+	
+	width: 100%;
+	text-decoration: none;
+	background: #ECE5B6;
+	border-bottom: solid black;
+	border-width: 2px;
+}
+#text{
+	
+	text-overflow: ellipsis;
+	overflow : hidden;
+	white-space: nowrap;
+
+
+}
+.items{
+	margin: 2%;
+	text-decoration: none;
+}
+
+Link{
+	color : black
+}
+.team_and_badge_a{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-decoration: none;
+	color : midnightblue;
+}
+.team_and_badge{
+	width: 70%;
+	text-decoration: none;
+}
+.team_and_badge_b{
+	display: flex;
+	align-items: center;
+	margin : 0%;
+	justify-content: space-between;
+	text-decoration: none;
+
+}
+.end{
+	display: flex;
+	width: 20%;
+	justify-content: space-between;
+	text-decoration: none;
+
+}
+.live{
+	color : red;
+	animation-name: live;
+	animation-duration: 2s;
+	animation-direction: forwards;
+	animation-iteration-count: infinite;
+	animation-fill-mode: ease-out;
+	text-decoration: none;
+}
+@keyframes live{
+
+	50%{
+		color : lightgray;
+		text-decoration: none;
+	}
+
+}

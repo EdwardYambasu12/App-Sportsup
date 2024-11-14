@@ -1,0 +1,59 @@
+.icon{
+	width : 150px;
+	height : 150px;
+	border-radius: 50%;
+
+}
+.nav-bar{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	height: fit-content;
+	align-items: center;
+}
+
+.full-screen{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.styler{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.example-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.styler2{
+	width: 100%;
+		margin-top: 129%;
+	display: flex;
+	justify-content: center;
+}
+.logo{
+
+	width: 150px;
+	height : 50px;
+
+}
+
+
+
+
+IonPage{
+	
+  background-color: var(--background);
+  color: var(--text-color);
+
+}
+#full{
+	background-color:  pink;
+}
